@@ -15,8 +15,8 @@ import java.time.LocalDateTime;
 public class Log {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    private Integer id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
     @Column
     private LocalDateTime enterTime;

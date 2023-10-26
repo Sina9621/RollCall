@@ -1,10 +1,9 @@
 package com.rollcall.repository;
 
-import com.rollcall.model.Employee;
+import com.rollcall.model.Log;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface EmployeeRepository extends JpaRepository<Employee, Long> {
-
+public interface LogRepository extends JpaRepository<Log, Long> {
 }
